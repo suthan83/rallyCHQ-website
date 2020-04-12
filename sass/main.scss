@@ -1,10 +1,13 @@
-*, *::before, *::after {box-sizing: inherit;}
+@import "abstract/mixins";
+@import "abstract/variables";
 
-html {
-    //define what 1rem is
-    font-size: 62.5%;
-}
+@import "base/base";
+@import "base/typography";
 
-body {
-    box-sizing: border-box;
-}
+@import "components/button";
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+
+// @import "pages/";

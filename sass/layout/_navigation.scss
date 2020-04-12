@@ -1,0 +1,33 @@
+.navigation {
+    &__checkbox {
+
+    }
+    &__button{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        color: red;
+    }
+    &__icon {
+    }
+
+    &__background {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        background-image: radial-gradient(rgba($color-primary-light, .8), rgba($color-primary-dark, .8))
+    }
+
+    &__nav {
+
+    }
+    &__list {
+        list-style: none;
+    }
+    &__item {
+
+    }
+    &__link {
+
+    }
+}

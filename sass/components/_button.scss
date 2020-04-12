@@ -1,0 +1,21 @@
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+        padding: 2rem 3rem;
+        background-color:$color-white;
+        display: inline-block;
+        color: $color-primary;
+        border-radius: 5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: $default-font-size;
+        margin-top: 5rem;   
+        transition: transform .5s;         
+    }
+
+   &:hover {
+        transform: rotate(360deg) scale(.5);
+    }
+}

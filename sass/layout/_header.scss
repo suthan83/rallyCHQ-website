@@ -1,0 +1,29 @@
+.header {
+    background-image: linear-gradient(to right top, rgba($color-primary-light, .8), rgba($color-primary-dark, .8)), url(../img/people.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 90vh;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: relative;
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 4rem;
+    }
+
+    &__text-box {
+        position: absolute;
+        width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        text-align: center;
+    }
+}
